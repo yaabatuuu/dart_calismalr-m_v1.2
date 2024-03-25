@@ -18,5 +18,15 @@ void main(){
       print("while : $sayac");
       sayac+=1;//sayac = sayac + 4
   }
+  print("****************************************************");
+  for(var i=3;i<7;i++) {
+    print("batuhan : $i");
 
+
+    var sayac = 3;
+    while (sayac < 7) {
+      print("demir: $sayac");
+      sayac += 1;
+    }
+  }
 }

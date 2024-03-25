@@ -18,6 +18,8 @@ void main(){
 
 if (secim == 2){
 
+
+
 print("yarı çap giriniz: ");
     int yaricap = int.parse(stdin.readLineSync()!);
 print("Çember alanı: ");

@@ -1,12 +1,14 @@
 
 import 'dart:io';
 
+import 'package:flutter/foundation.dart';
+
 void main() {
   try {
     int sonuc = 10 ~/ int.parse("eser");
     print(sonuc);
   } on FormatException {
-    print("format hatasi meydana geldi ");
+    debugPrint("format hatasi meydana geldi ");
   } catch (e) {
     print("Bilinmeyen bir hata meydana geldi");
   } finally {
